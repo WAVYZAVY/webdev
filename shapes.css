@@ -33,7 +33,16 @@ body{
     height: 400px;
     width: 550px;
     background-color: purple;
-    border-radius: 45%;
+    border-radius: 50%;
     border: solid black;
-    margin: 60px 60px 60px 60px;
+    margin: 60px 60px 60px 45px;
 }
+
+#Triangle {
+    margin:auto;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    }
