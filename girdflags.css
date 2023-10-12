@@ -141,3 +141,30 @@ grid-row: 1/4;
     grid-column: 1 / -1;
     grid-row: 5 / 6;
 }
+
+#switzerland {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 100px 50px 50px;
+    height: 300px;
+    width: 400px; 
+
+}
+
+#switzerland-red {
+    background-color: red;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+#switzerland-white {
+    color: white;
+    grid-column: ;
+    grid-row: ;
+}
+
+#switzerland-white-2 {
+    color: white;
+    grid-column: ;
+    grid-row: ;
+}
